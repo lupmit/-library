@@ -1,0 +1,23 @@
+{
+  "name": "do-an-lap-trinh-mang",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "node index.js",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "bootstrap": "^4.5.3",
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^1.0.6",
+    "image-to-base64": "^2.1.1",
+    "libgen": "^2.1.0",
+    "react-router-dom": "^5.2.0"
+  }
+}
